@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 
 from config import STATUSES, DEV_GUILD
 
-load_dotenv()
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = os.getenv("TOKEN")
+bot.run(TOKEN)
 
 intents = discord.Intents.default()
 intents.members = True
