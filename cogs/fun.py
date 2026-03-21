@@ -17,7 +17,7 @@ class Fun(commands.Cog):
     async def larp(self, interaction: discord.Interaction, user: discord.Member):
 
         await interaction.response.send_message(
-            f"🚨 {user.mention} is a certified **LARP**"
+            f"🚨 {user.mention} is a certified larp larp larp SAHUR"
         )
 
 
@@ -25,12 +25,12 @@ class Fun(commands.Cog):
 
     @discord.app_commands.command(
         name="slander",
-        description="Slander someone"
+        description="Slander your opps"
     )
     async def slander(self, interaction: discord.Interaction, user: discord.Member):
 
         await interaction.response.send_message(
-            f"Fuck {user.display_name}, amirite {interaction.user.mention}"
+            f"Fuck {user.display_name}, from {interaction.user.mention}"
         )
 
 
