@@ -15,7 +15,7 @@ class Intro(commands.Cog):
 
         embed = discord.Embed(
             title="👋 Thanks for inviting me!",
-            description="I'm a moderation and utility bot.",
+            description="I'm goonbot100000",
             color=discord.Color.blurple()
         )
 
